@@ -5,7 +5,7 @@ displayOutput("Welcome to Jacob Murphy's resume. Please feel free to check out t
 document.getElementById('commandInput').addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {
         const command = this.value.trim();
-        displayOutput(`<span class="prompt">guest@jacob-resume</span> &gt; ${command}<br>`);
+        displayOutput(`<span class="prompt">guest@jacob-resume:~/resume_data</span> &gt; ${command}<br>`);
         executeCommand(command);
         this.value = ''; // Clear input field
     }
@@ -32,7 +32,7 @@ function executeCommand(command) {
             fetchAndDisplayContent('resume_data/summary.txt');
             break;
         case 'pwd':
-            displayOutput('/home/guest/resume<br>');
+            displayOutput('/home/guest/resume_data<br>');
             break;
         case 'whoami':
             displayOutput('guest<br>');
