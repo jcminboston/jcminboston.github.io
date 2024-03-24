@@ -1,0 +1,7 @@
+Python IP & MAC Address Scanner
+OpenCanary Honeypot
+Docker Kali Offsec Lab
+PiHole DNS
+PiVPN
+
+and this resume!

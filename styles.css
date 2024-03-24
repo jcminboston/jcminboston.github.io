@@ -1,0 +1,35 @@
+/* Terminal Styles */
+.terminal {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', monospace;
+    height: 90vh; /* 90% of the viewport height */
+    width: 90%; /* 90% of the viewport width */
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.prompt,
+.input input {
+    margin-right: 5px;
+    font-family: 'Courier New', monospace;
+    color: #0f0; /* Green color for prompt */
+}
+
+.input input {
+    border: none; /* Remove border */
+    background-color: transparent; /* Make background transparent */
+    color: inherit; /* Inherit color */
+    font-size: inherit; /* Inherit font size */
+    outline: none; /* Remove outline */
+}
+
+.output div {
+    margin-bottom: 5px;
+}
