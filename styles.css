@@ -3,8 +3,8 @@
     background-color: black;
     color: white;
     font-family: 'Courier New', monospace;
-    height: 90vh; /* 90% of the viewport height */
-    width: 90%; /* 90% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+    width: 100%; /* 100% of the viewport width */
     overflow-y: scroll;
 }
 
