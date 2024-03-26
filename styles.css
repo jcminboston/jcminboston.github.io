@@ -11,12 +11,10 @@
 .input {
     display: flex;
     align-items: center;
-    margin-top: 10px;
 }
 
 .prompt,
 .input input {
-    margin-right: 5px;
     font-family: 'Courier New', monospace;
     color: #0f0; /* Green color for prompt */
 }
@@ -30,5 +28,5 @@
 }
 
 .output div {
-    margin-bottom: 5px;
+    
 }
